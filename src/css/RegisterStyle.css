@@ -1,0 +1,69 @@
+ body{
+    background: #BEBEBE;
+}
+
+ h2 {
+  text-align: center;
+  /*text-decoration: underline;*/
+  font: 24px verdana, sans-serif;
+  /*color: DarkSlateGray;*/
+  color: white;
+}
+
+.form {
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ max-width: 400px;
+ background-color: #f2f2f2;
+	padding: 30px 30px 10px;
+ 
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+
+.form.table {
+ padding:0;
+	margin:0;
+	list-style:none;
+ }
+
+.form.table, tr {
+ display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+ font: 16px "Trebuchet MS";
+ }
+
+.text {
+ color: red;
+ font: 13px "Trebuchet MS", sans-serif;
+}
+
+ .field {
+  margin-left: 2%;
+    text-align: left;
+    color: black;
+    font: 14px "Trebuchet MS", sans-serif;
+}
+                                                                
+.btnchoose {
+ font: 15px "Trebuchet MS";
+ text-align: center;
+}
+
+.button {
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font: 16px "Trebuchet MS";
+ text-align: center;
+ padding: 3px 10px 3px;
+ color: #fff;
+ background: #305A72;
+}
+
+

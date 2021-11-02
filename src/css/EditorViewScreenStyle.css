@@ -1,0 +1,39 @@
+
+h2 {
+  text-align: center;
+  font: 24px verdana, sans-serif;
+  color: #696969;
+}
+
+  table {
+   border-spacing: 0;
+   border: 1px solid #ddd;
+    width:90%; 
+    margin-left:5%; 
+    margin-right:5%;
+  }
+  
+ th {
+  cursor: pointer;
+  background-color: #696969;
+  color: #DCDCDC;
+  text-align: center;
+  font: 18px "Trebuchet MS", sans-serif;
+ }
+
+td {
+  text-align: left;
+  font: 16px "Trebuchet MS";
+}
+
+               /*overflow: auto;*/
+ 
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.text {
+ color: blue;
+ font: 13px "Trebuchet MS", sans-serif;
+ margin-left:5%; 
+}
